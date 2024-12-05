@@ -1,0 +1,36 @@
+{
+    "name": "scrothers/kube-php",
+    "description": "A Kubernetes library for PHP.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "keywords": [
+        "kubernetes"
+    ],
+    "homepage": "https://github.com/scrothers/kube-php",
+    "readme": "README.md",
+    "autoload": {
+        "psr-4": {
+            "Scrothers\\Kubernetes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Scrothers\\Kubernetes\\Tests": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Steven Crothers",
+            "email": "steven@scrothers.com",
+            "forum": "https://github.com/scrothers/kube-php/discussions",
+            "homepage": "https://github.com/scrothers",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/scrothers/kube-php/issues",
+        "source": "https://github.com/scrothers/kube-php",
+        "wiki": "https://github.com/scrothers/kube-php/wiki"
+    },
+    "require": {}
+}
